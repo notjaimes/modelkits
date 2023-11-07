@@ -1,0 +1,152 @@
+/**************************/
+/***** INDEX ME HTML ******/
+/**************************/
+:root {
+    --blue: #44a7ce;
+    --coolgrey: #9193a0;
+    --charcoal: #1d2a33;
+    --lightcharcoal: #3e4758;
+    --black100: #16171c;
+    /* This is an example */
+    /* Create your own color variables */
+    /* At most I recommend using 3 colors 
+      that will be used accross your website */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    /* Choose your font family here
+        or you can add it later */
+}
+
+body {
+    background-color: var(--coolgrey)
+        /* the bg color would be the same as your 
+        quote section bg color */
+}
+
+
+
+/***  LANDING PAGE ***/
+.landingpage {
+    background-image: url("img/booklet.jpg");
+    min-height: 500px;
+    width: 100%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    position: absolute;
+    z-index: -1;
+}
+
+header img {
+    width: 50px;
+}
+
+
+/***  NAVIGATION BAR ***/
+nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    padding: 35px 5%;
+}
+
+.navlinks {
+    list-style-type: none;
+    display: flex;
+}
+
+.navlinks li {
+    padding: 0 15px;
+}
+
+.navlinks a {
+    color: var(--blue);
+    font-size: 25px;
+    text-decoration: none;
+    background-color: white;
+}
+
+/***  TITLE ***/
+header h1 {
+    color: var(--black100);
+    text-align: center;
+    font-size: 100px;
+    margin-top: 150px;
+    background-color: var(--blue);
+}
+
+
+/***  QUOTE SECTION ***/
+.quotesection {
+    background: var(--coolgrey);
+    margin-top: 170px;
+    padding: 35px 20px;
+    text-align: center;
+    background-color: var(--lightcharcoal);
+}
+
+q {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/***  CARDS ***/
+.column img {
+    height: 100px;
+    width: 230px;
+}
+
+.row {
+    background-color: var(--charcoal);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.column {
+    background-color: var(--black100);
+    width: 290px;
+    margin: 50px 0px;
+}
+
+.contentwrap {
+    color: red;
+    margin: 20px;
+}
+
+h2,
+p {
+    padding-top: 15px;
+}
+
+/***  LAST SECTION ***/
+.lastcontent {
+    margin: 40px 10% 60px;
+}
+
+
+/***  FOOTER ***/
+.footer {
+    text-align: center;
+}
+
+
+
+
+
+
+/**************************/
+/***** ABOUT ME HTML ******/
+/**************************/
+/* Use CSS from previous CSS to 
+      add and edit here */
