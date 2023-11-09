@@ -47,7 +47,8 @@ body {
 }
 
 header img {
-    width: 50px;
+    width: 100px;
+    height: 150px;
 }
 
 
@@ -56,7 +57,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     height: 80px;
-    padding: 35px 5%;
+    padding: 10px 2%;
 }
 
 .navlinks {
@@ -69,7 +70,7 @@ nav {
 }
 
 .navlinks a {
-    color: var(--blue);
+    color: var(--black100);
     font-size: 25px;
     text-decoration: none;
     background-color: white;
@@ -80,7 +81,7 @@ header h1 {
     color: var(--black100);
     text-align: center;
     font-size: 100px;
-    margin-top: 150px;
+    margin-top: 100px;
     background-color: var(--blue);
 }
 
@@ -88,7 +89,7 @@ header h1 {
 /***  QUOTE SECTION ***/
 .quotesection {
     background: var(--coolgrey);
-    margin-top: 170px;
+    margin-top: 0px;
     padding: 35px 20px;
     text-align: center;
     background-color: var(--lightcharcoal);
@@ -102,7 +103,7 @@ q {
 
 /***  CARDS ***/
 .column img {
-    height: 100px;
+    height: 120px;
     width: 230px;
 }
 
@@ -132,11 +133,14 @@ p {
 /***  LAST SECTION ***/
 .lastcontent {
     margin: 40px 10% 60px;
+    font-size: 20px;
 }
 
 
 /***  FOOTER ***/
-.footer {
+footer {
+    color: var(--black100);
+    padding: 20px;
     text-align: center;
 }
 
@@ -150,3 +154,16 @@ p {
 /**************************/
 /* Use CSS from previous CSS to 
       add and edit here */
+.aboutpage {
+    background-image: url("img/hggunpla.webp");
+    min-height: 400px;
+    width: 2000px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    position: absolute;
+    z-index: -1;
+}
